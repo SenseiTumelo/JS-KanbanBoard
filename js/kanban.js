@@ -24,6 +24,8 @@ const create_item = () => {
    event.dataTransfer.setData('text', event.target.id);
    event.target.id = 'text';
   });
+ item.addEventListener('dragend', event =>  event.dataTransfer.clearData());
+
 };
 
 document.querySelectorAll('.drop').forEach(element => {
