@@ -31,7 +31,14 @@ const create_item = () => {
 
  let save_btn = document.createElement('button');
  save_btn.innerHTML = 'save';
- save_btn.addEventListener('click',()=>{})
+ save_btn.addEventListener('click',()=>{
+   let error = '';
+   if(input.value !== error){
+     order += order;
+     item.innerHTML = input.value;
+     adding = false;
+   }
+ })
 };
 
 document.querySelectorAll('.drop').forEach(element => {
