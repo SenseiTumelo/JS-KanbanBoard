@@ -28,6 +28,9 @@ const create_item = () => {
  
  let input = document.createElement('input');
  input.appendChild(item);
+
+ let save_btn = document.createElement('button');
+ save_btn.innerHTML = 'save';
 };
 
 document.querySelectorAll('.drop').forEach(element => {
