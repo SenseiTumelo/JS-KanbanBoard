@@ -43,7 +43,7 @@ const create_item = () => {
     error.innerHTML = message;
    }
  })
- save_btn.appendChild(item);
+ item.appendChild(save_btn);
  return item;
 };
 
