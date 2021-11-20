@@ -44,7 +44,7 @@ const create_item = () => {
    }
  })
  save_btn.appendChild(item);
- return save_btn;
+ return item;
 };
 
 document.querySelectorAll('.drop').forEach(element => {
