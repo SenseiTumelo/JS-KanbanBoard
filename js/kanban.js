@@ -31,12 +31,16 @@ const create_item = () => {
 
  let save_btn = document.createElement('button');
  save_btn.innerHTML = 'save';
+
+
  save_btn.addEventListener('click',()=>{
-   let error = '';
-   if(input.value !== error){
-     order += order;
+   error.innerHTML = '';
+   if(input.value !== ''){
+     order += 1;
      item.innerHTML = input.value;
      adding = false;
+   } else{
+  
    }
  })
 };
